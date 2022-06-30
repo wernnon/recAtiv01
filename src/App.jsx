@@ -1,7 +1,7 @@
 //App.jsx
 import './App.css'
 import Button from './Button.jsx'
-import Title from './Title.jsx'
+
 function App(){
 return(
   <div className='content'>
