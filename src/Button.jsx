@@ -1,14 +1,19 @@
-function Button({Titulo, Subtitulo}){
-
+import './Button.css'
+function Button(props){
+    const titulo = props.titulo;
+    const descr = props.descr;
     return(
+        
+        <div className='body'>
 
-        <div>
+            <button className='title'>
+                
+                <p>{titulo}</p>
+                
+                {descr}
 
-            {Titulo && 
-                <p >
-                     {Titulo}, {Subtitulo}
-                </p>
-            }     
+            </button>
+
         </div>
     );
 }
