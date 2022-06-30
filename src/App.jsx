@@ -3,6 +3,7 @@ import './App.css'
 import Button from './Button.jsx'
 
 function App(){
+
 return(
   <div className='content'>
        <Button titulo = "PREVIOUS" descr="JQUERY: DETECT UPDATE OF HTML ELEMENT"/>
